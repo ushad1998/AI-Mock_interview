@@ -2,7 +2,6 @@
   "name": "ai-mock-interview",
   "version": "0.1.0",
   "private": true,
-  "next": "15.1.2",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
