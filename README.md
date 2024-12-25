@@ -1,13 +1,26 @@
-AI Mock Interview Generator
+**AI Mock Interview Generator**
 
-Overview
+**Overview**
 
 The AI Mock Interview Generator is a web application designed to create personalized mock interview questions and answers based on a user's job role, description, and experience. The application leverages AI to provide tailored questions and responses, helping users prepare effectively for job interviews.
 
+**ScreenShots**
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai1.png">
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai2.png">
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai3.png">
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai4.png">
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai5.png">
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai6.png">
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai7.png">
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai8.jpeg">
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai9.jpeg">
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai10.jpeg">
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai11.png">
+<img src="https://github.com/ushad1998/AI-Mock_interview/blob/56d34ee2ee8bfada16afa9cd0c3e016f625ad6d8/AI%20Screenshots/ai12.png">
 
 ---
 
-Features
+**Features**
 
 AI-Generated Questions: Generates interview questions and answers in JSON format using AI.
 
@@ -30,9 +43,9 @@ Efficient Workflow: Handles AI interaction and database storage seamlessly.
 
 ---
 
-Tech Stack
+**Tech Stack**
 
-Frontend
+**Frontend**
 
 React.js: For building the user interface.
 
@@ -41,19 +54,19 @@ Next.js: For server-side rendering and optimized performance.
 Tailwind CSS: For responsive and modern styling.
 
 
-Backend
+**Backend**
 
 Node.js: For backend logic and API integration.
 
 PostgreSQL/SQLite: For storing interview data.
 
 
-AI Integration
+**AI Integration**
 
 Custom AI Model (e.g., GPT): Used to generate interview questions and answers.
 
 
-Other Tools
+**Other Tools**
 
 Moment.js: For date and time formatting.
 
@@ -67,7 +80,7 @@ Lucide Icons: For loading and UI components.
 
 ---
 
-Installation and Setup
+**Installation and Setup**
 
 Prerequisites
 
@@ -78,43 +91,43 @@ npm or yarn package manager
 PostgreSQL or SQLite database
 
 
-Steps
+**Steps
 
 1. Clone the Repository
-
+**
 git clone https://github.com/your-username/ai-mock-interview.git
 cd ai-mock-interview
 
 
-2. Install Dependencies
+**2. Install Dependencies**
 
 npm install
 # or
 yarn install
 
 
-3. Environment Variables Create a .env.local file in the root directory and configure the following variables:
+**3. Environment Variables Create a .env.local file in the root directory and configure the following variables:**
 
 NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT=5
 NEXT_PUBLIC_API_KEY=your_ai_api_key
 DATABASE_URL=your_database_url
 
 
-4. Run the Application
+**4. Run the Application**
 
 npm run dev
 # or
 yarn dev
 
-
-5. Access the Application Open http://localhost:3000 in your browser.
+**
+5. Access the Application Open http://localhost:3000 in your browser.**
 
 
 
 
 ---
 
-Usage
+**Usage**
 
 1. Click the "Add New" button on the dashboard.
 
@@ -139,22 +152,30 @@ Years of Experience (e.g., "3").
 
 ---
 
-Project Directory Structure
+**Project Directory Structure**
 
 ai-mock-interview/
+
 ├── components/      # UI components
+
 ├── pages/           # Next.js page components
+
 ├── public/          # Static assets
+
 ├── styles/          # Global styles
+
 ├── utils/           # Utility functions (e.g., DB, AI integration)
+
 ├── .env.local       # Environment variables
+
 ├── package.json     # Project metadata and dependencies
+
 └── README.md        # Project documentation
 
 
 ---
-
-Key Features Implementation
+**
+Key Features Implementation**
 
 1. AI Integration: Sends user input to an AI model and retrieves JSON responses.
 
@@ -172,7 +193,7 @@ Key Features Implementation
 
 ---
 
-Future Enhancements
+**Future Enhancements**
 
 Add multiple AI model options for different interview scenarios.
 
@@ -186,10 +207,10 @@ Integrate voice-based Q&A for real-time practice.
 
 ---
 
-Contribution
+**Contribution
 
 Contributions are welcome! Feel free to fork this repository, submit pull requests, or report issues.
-
+**
 Steps to Contribute
 
 1. Fork the repository.
@@ -213,14 +234,14 @@ git push origin feature-name
 
 ---
 
-License
+**License**
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 
 ---
 
-Contact
+**Contact**
 
 For queries or suggestions, please reach out at your-email@example.com or visit the GitHub repository.
 
